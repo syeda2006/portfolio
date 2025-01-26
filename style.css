@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Regular.ttf);
+}
+*{
+    font-family: "Roboto";
+}
+
+@media screen and (min-width:992px) and (max-width:5500px) {
+    .logo{
+         width: 200px !important;
+     }
+ }
+ body{
+    overflow-x: hidden;
+ }
+ 
+ .navbar{
+     box-shadow: 0 0 90px rgba(0, 0, 0, 0.171);
+     /* position: fixed;
+     z-index: 10;  */
+     width: 100%;
+     height: 100px;
+ }
+ 
+ .Home{
+     color: rgba(94, 59, 238, 1);
+     font-family: Roboto;
+     font-weight: 400;
+     font-size: 21.33px;
+ }
+ 
+ .Link{
+     color: rgba(28, 30, 83, 1);
+     font-family: Roboto;
+     font-weight: 400;
+     font-size: 21.33px;
+ }
+ 
+ .Button{
+     color: rgba(94, 59, 238, 1);
+     font-family: Roboto;
+     font-weight: 400;
+     font-size: 21.33px;
+     border-color: rgba(94, 59, 238, 1);
+ }
+ .bg{
+    background: #F5FCFF;
+
+ }
+ .heading{
+    color: #5E3BEE;
+ }
+ .c{
+    color: #5E3BEE
+ }
+ .button2{
+      background-color: #5E3BEE;
+      color: white;
+ }
+ .cards{
+    background-color: #F5FCFF;
+    border: none;
+ }
+ .stars{
+    border-color: #006B6A !important;
+    border-radius: 8px !important;
+    border-width:;
+ }
