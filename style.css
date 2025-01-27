@@ -62,8 +62,44 @@
     background-color: #F5FCFF;
     border: none;
  }
- .stars{
+ .border{
     border-color: #006B6A !important;
     border-radius: 8px !important;
-    border-width:;
+    border-width:100%;
  }
+ #Touch{
+    color: rgba(40, 41, 56, 1);
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 21.33px;
+}
+
+#Contact-me{
+    color: rgba(40, 41, 56, 1);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.border-outline{
+    border-color: rgba(94, 59, 238, 1) !important;
+}
+.Get-In-Touch{
+    color: rgba(255, 255, 255, 1) !important;
+    font-family: Roboto !important;
+    font-weight: 400 !important;
+    font-size: 21.33px !important;
+    background-color: rgba(94, 59, 238, 1) !important;
+    height: 69.33px;
+    box-shadow: none;
+}
+
+:hover.Get-In-Touch{
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21.33px;
+    background-color: rgba(94, 59, 238, 1);
+    height: 69.33px;
+
+}
